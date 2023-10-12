@@ -1,0 +1,16 @@
+# Site settings
+title: My Portfolio
+logo: "/images/myles.png?raw=true" # My profile photo
+description: > # My info
+  <a href="/"><h2 style="font-size: 30px">Myles O'Toole</h2></a><b>Bachelor of Science in
+  Cybersecurity</b><br /><br />Recent university graduate seeking an information technology or
+  related position.<br /><br /> <a href="/pdf/resume.pdf">View My Resume</a> <br /><br /> <a
+  href="https://www.linkedin.com/in/mylesotoole/">View My LinkedIn Profile</as>
+github_username: ot8le
+
+# Build setting
+theme: jekyll-theme-minimal
+
+# Plugins
+plugins:
+  - jekyll-titles-from-headings

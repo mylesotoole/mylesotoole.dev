@@ -1,0 +1,14 @@
+Myles O’Toole
+CSCI.30163.2020-50
+
+Guess an integer between 1 and 20!
+
+If you would like to end the game, it will prompt you and you can leave.
+
+Feel free to keep guessing until you reach the magic number!
+
+The script will continue to tell you if you are guessing too high or too low as you go.
+
+When you guess the magic number it will tell you.
+
+Have fun and thanks for playing!
