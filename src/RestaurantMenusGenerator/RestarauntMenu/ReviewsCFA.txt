@@ -1,9 +1,0 @@
-UserTest
-4.0
-Loved the food. However, the server did not say my pleasure after giving me my sandwich.
-UserTest 2
-1.0
-I hate Chicken.
-UserTest 3
-5.0
-Chickfila > Popeyes
