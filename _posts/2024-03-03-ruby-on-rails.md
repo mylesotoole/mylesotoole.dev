@@ -9,7 +9,7 @@ tags:
 ## Installing RVM:
 
 1. [Add Repo](https://github.com/rvm/ubuntu_rvm/blob/531e67a9903a593d2c9c1f3cb9b6ee4ec332fad2/README.md):
-``` 
+```
 sudo apt-add-repository -y ppa:rael-gc/rvm
 ```
 
@@ -29,7 +29,7 @@ sudo apt-get install rvm -y
 ```
 
 5. Add your user to `rvm` group (`$USER` will automatically insert your username):
-```term
+```
 sudo usermod -a -G rvm $USER
 ```    
 
@@ -47,7 +47,7 @@ rvmsudo rvm cleanup all && rvm fix-permissions && sudo reboot
 ## [Installing Ruby](https://www.railstutorial.org/book)
 
 9. Configure RVM, Download, and Set Default Ruby:
-``` 
+```
 rvm get stable
 ```
 
