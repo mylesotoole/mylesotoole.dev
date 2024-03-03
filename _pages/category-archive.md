@@ -1,5 +1,5 @@
 ---
-title: "Posts by Category"
-permalink: /categories/
+title: "Guides"
+permalink: /guides/
 layout: categories
 ---
