@@ -1,9 +1,7 @@
 ---
 title: "Installing Ruby on Rails"
 categories:
-  - Linux
-tags:
- - Ubuntu
+  - Debian Linux
 ---
 
 ## Installing RVM:
