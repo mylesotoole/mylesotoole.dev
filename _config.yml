@@ -1,5 +1,5 @@
 # Site settings
-title: mylesotoole.dev
+title: Myles O'Toole
 #email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this line in _config.yml. It
@@ -29,16 +29,16 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name: "Myles O'Toole"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+# author:
+#   name: "Myles O'Toole"
+#   avatar: "/assets/images/bio-photo.jpg"
+#   bio: "My awesome biography constrained to a sentence or two goes here."
+#   links:
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/"
 
 defaults:
   # _posts
