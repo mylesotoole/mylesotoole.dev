@@ -1,20 +1,20 @@
 ---
-title: "Debloat Windows"
+title: "Optimize Windows 11"
 categories:
   - Windows
 ---
 
-## Debloat Windows 11
+## Remove bloatware:
 
 ### Powershell (Admin):
 
-#### Remove all preinstalled Microsoft apps (can be redownloaded again through the store):
+#### Remove all preinstalled Microsoft apps (they can be redownloaded again through the store):
 
 ```powershell
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 ```
 
-#### Add back Microsoft store:
+#### Optionally, add back Microsoft store:
 
 ```powershell
 Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
@@ -22,12 +22,12 @@ Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -Dis
 
 <hr>
 
-## Maximize Storage in Windows 11
+## Compress OS files to free up drive space:
 
 ### Command Prompt (Admin):
 
 #### Enable the built in CompactOS feature:
 
-```cmd
+```powershell
 Compact.exe /CompactOS:always
 ```
