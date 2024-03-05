@@ -78,3 +78,8 @@ categories:
 1. Open Steam, and click `Steam`, then click `Settings` then open the `Interface` tab.
    - Set **Run Steam when my computer starts** to `On`
    - Set **Start Steam in Big Picture Mode** to `On`
+
+### Final Steps
+
+1. Reboot to apply changes
+2. Use `Alt Tab` to swap between Discord and Steam.
