@@ -16,7 +16,7 @@ categories:
 
 <hr>
 
-### Change Default Login Shell
+### 1. Change Default Login Shell
 
 1. Open Registry Editor, navigate to:
     ``` 
@@ -29,7 +29,7 @@ categories:
     ```
 ###### To log back into regular windows, change this to `explorer.exe`
 
-### Enable Passwordless Login
+### 2. Enable Passwordless Login
 
 1. Open Registry Editor, navigate to:
     ```
@@ -50,7 +50,7 @@ categories:
 4. Search for and open **netplwiz**. 
    - `Uncheck` **Users must enter a user name and password to use this computer.**
 
-### Enable Discord
+### 3. Enable Discord
 ###### You can use this method for any program you want to start at login. Regular `Startup Apps` will not work as they only launch in the default shell. 
 ###### Add a new basic task for each app you want to open at login. Reuse the steps, but for `Step 8` change the path to the app you want to open.
 
@@ -73,13 +73,13 @@ categories:
 12. Go to the `Settings` tab and `Uncheck` **Stop if the task does not end when requested, force it to stop**.
 13. Press `OK`.
 
-### Configure Steam
+### 4. Configure Steam
 
 1. Open Steam, and click `Steam`, then click `Settings` then open the `Interface` tab.
    - Set **Run Steam when my computer starts** to `On`
    - Set **Start Steam in Big Picture Mode** to `On`
 
-### Final Steps
+### 5. Final Steps
 
 1. Reboot to apply changes
 2. Use `Alt Tab` to swap between Discord and Steam.
