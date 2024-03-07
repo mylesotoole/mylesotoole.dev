@@ -24,7 +24,7 @@ categories:
 4. Install RVM:
     ```console
     sudo apt-get install rvm -y
-```
+    ```
 
 5. Add your user to **rvm** group (`$USER` will automatically insert your username):
     ```console
@@ -84,6 +84,7 @@ categories:
 ## Install Bundler:
 
 14.  Installing Bundler with a specific version number:
-    ```console
-    gem install bundler -v 2.3.14
-    ```
+
+        ```console
+        gem install bundler -v 2.3.14
+        ```
