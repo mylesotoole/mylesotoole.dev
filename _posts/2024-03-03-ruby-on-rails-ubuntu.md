@@ -4,7 +4,7 @@ categories:
   - Linux
 ---
 
-## Install RVM:
+## 1. Install RVM:
 ### In order, copy and paste the following commands.
 1. Add Repo [(reference)](https://github.com/rvm/ubuntu_rvm/blob/531e67a9903a593d2c9c1f3cb9b6ee4ec332fad2/README.md):
     ```console
@@ -42,7 +42,7 @@ categories:
     rvmsudo rvm cleanup all && rvm fix-permissions && sudo reboot
     ```
 
-## Installing Ruby
+## 2. Installing Ruby
 ### In order, copy and paste the following commands.
 
 9. Configure RVM, Download, and Set Default Ruby [(reference)](https://www.railstutorial.org/book):
@@ -63,7 +63,7 @@ categories:
     ruby -v
     ```
 
-## Installing Rails
+## 3. Installing Rails
 ### In order, copy and paste the following commands.
 
 11. Configure the __.gemrc__ file to skip the installation of Ruby documentation
