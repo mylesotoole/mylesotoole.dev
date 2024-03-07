@@ -35,7 +35,8 @@ categories:
 
 - At terminal window, open the application menu, then `Preferences`. Click on `Unnamed` profile, select the `Command` tab and check `Run command as login shell`.
 
-<p align="center"><img src= ../assets/images/TERMINAL.png></p>
+<p align="center"><img src= 
+"https://github.com/mylesotoole/mylesotoole.dev/blob/main/assets/images/TERMINAL.png"></p>
 
 
 7. Open a new terminal window, then fix permissions and reboot:
