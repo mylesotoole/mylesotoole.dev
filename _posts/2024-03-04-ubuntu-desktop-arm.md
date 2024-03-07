@@ -1,7 +1,6 @@
 ---
 title: "Create an ARM Ubuntu Desktop VM on Apple Silicon:"
 categories:
-  - Linux
   - macOS
 ---
 
