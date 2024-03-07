@@ -9,14 +9,14 @@ categories:
 ### Powershell (Admin):
 
 #### Remove all preinstalled Microsoft apps (they can be redownloaded again through the store):
-    ```powershell
-    Get-AppxPackage -AllUsers | Remove-AppxPackage
-    ```
+```powershell
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+```
 
 #### Optionally, add back Microsoft store:
-    ```powershell
-    Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-    ```
+```powershell
+Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+```
 
 <hr>
 
@@ -25,6 +25,6 @@ categories:
 ### Command Prompt (Admin):
 
 #### Enable the built in CompactOS feature:
-    ```console
-    Compact.exe /CompactOS:always
-    ```
+```console
+Compact.exe /CompactOS:always
+```

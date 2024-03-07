@@ -83,7 +83,7 @@ categories:
 
 ## Install Bundler:
 
-14.  Installing Bundler with a specific version number: <br>
+14.  Installing Bundler with a specific version number:
     ```console
     gem install bundler -v 2.3.14
     ```
