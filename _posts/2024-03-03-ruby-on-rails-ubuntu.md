@@ -35,7 +35,7 @@ categories:
 
 - At terminal window, open the application menu, then `Preferences`. Click on `Unnamed` profile, select the `Command` tab and check `Run command as login shell`.
 
-![Terminal Screenshot](/assets/images/TERMINAL.png)
+<p align="center"><img src= assets/images/TERMINAL.png></p>
 
 7. Open a new terminal window, then fix permissions and reboot:
     ```console
@@ -83,7 +83,7 @@ categories:
 
 ## Install Bundler:
 
-14.  Installing Bundler with a specific version number: 
+14.  Installing Bundler with a specific version number: <br>
     ```console
     gem install bundler -v 2.3.14
     ```
