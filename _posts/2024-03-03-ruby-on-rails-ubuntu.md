@@ -32,8 +32,7 @@ categories:
    ```    
 
 6. Now, in order to always load rvm, change the Gnome Terminal to always perform a login.
-
-- At terminal window, open the application menu, then `Preferences`. Click on `Unnamed` profile, select the `Command` tab and check `Run command as login shell`.
+    - At terminal window, open the application menu, then `Preferences`. Click on `Unnamed` profile, select the `Command` tab and check `Run command as login shell`.
 
 <!-- <p align="center"><img src= TERMINAL.png></p> -->
 
