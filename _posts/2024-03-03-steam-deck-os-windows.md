@@ -19,27 +19,27 @@ categories:
 ### 1. Change Default Login Shell
 
 1. Open Registry Editor, navigate to:
-    ``` 
-    Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
-    ```
+   ``` 
+   Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+   ```
 
 2. Double Click on ***Shell*** and replace ***Value data*** with:
-    ```
-    "C:\Program Files (x86)\Steam\steam.exe"
-    ```
+   ```
+   "C:\Program Files (x86)\Steam\steam.exe"
+   ```
 ###### To log back into regular windows, change this to `explorer.exe`
 
 ### 2. Enable Passwordless Login
 
 1. Open Registry Editor, navigate to:
-    ```
-    HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PasswordLess\Device
-    ```
+   ```
+   HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PasswordLess\Device
+   ```
 
 2. Double Click on ***DevicePasswordLessBuildVersion*** and replace ***Value data*** with:
-    ```
-    0
-    ```
+   ```
+   0
+   ```
 
 3. Go to **Accounts** **> Sign-in** options and scroll down to **Additional settings**
 
@@ -63,9 +63,9 @@ categories:
 7. For **What action do you want the task to perform?** select `Start a program`
 
 8. For **Program/script** paste Discord's **target** from your clipboard. It should look like this (where `name` is your account name):
-    ```
-    C:\Users\name\AppData\Local\Discord\Update.exe --processStart Discord.exe
-    ```
+   ```
+   C:\Users\name\AppData\Local\Discord\Update.exe --processStart Discord.exe
+   ```
 9. Press `next` and then `yes` to the prompt.
 
 10. `Check` **Open the Properties dialog for this task when I click Finish** and then press **Finish**.
