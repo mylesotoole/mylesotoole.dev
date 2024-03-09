@@ -1,5 +1,5 @@
 ---
-title: "Create an ARM Ubuntu Desktop VM on Apple Silicon:"
+title: "Creating Ubuntu Desktop VM for Apple Silicon"
 categories:
   - macOS
 ---
