@@ -4,27 +4,19 @@ categories:
   - Windows
 ---
 
-## Remove bloatware:
-
 ### Powershell (Admin):
 
-#### Remove all preinstalled Microsoft apps (they can be redownloaded again through the store):
+#### Remove all preinstalled bloatware (these apps can be redownloaded again through the Microsoft Store):
 ```powershell
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 ```
 
-#### Optionally, add back Microsoft store:
+#### To add back Microsoft Store:
 ```powershell
 Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
 
-<hr>
-
-## Compress OS files to free up drive space:
-
-### Command Prompt (Admin):
-
-#### Enable the built in CompactOS feature:
+#### Enable the built in CompactOS feature, to maximize drive space:
 ```console
 Compact.exe /CompactOS:always
 ```
