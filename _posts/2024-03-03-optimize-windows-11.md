@@ -11,7 +11,7 @@ categories:
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 ```
 
-#### To add back Microsoft Store:
+#### Optionally, adding back Microsoft Store:
 ```powershell
 Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 ```
