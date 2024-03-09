@@ -1,10 +1,10 @@
 ---
-title: "Optimize Windows 11"
+title: "Debloat Windows using Powershell"
 categories:
   - Windows
 ---
 
-### Powershell (Admin):
+### Run Powershell as Administrator:
 
 #### Remove all preinstalled bloatware (these apps can be redownloaded again through the Microsoft Store):
 ```powershell
@@ -17,6 +17,6 @@ Get-AppxPackage -allusers Microsoft.WindowsStore | Foreach {Add-AppxPackage -Dis
 ```
 
 #### Enable the built in CompactOS feature, to maximize drive space:
-```console
+```powershell
 Compact.exe /CompactOS:always
 ```
