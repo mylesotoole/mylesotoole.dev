@@ -6,7 +6,7 @@ categories:
 
 1. Download and install [**Ubuntu Server Arm**](https://ubuntu.com/download/server/arm) iso file.
 
-2. Start the Ubuntu Server virtual machine and login.
+2. Follow the installer and login to the Ubuntu Server virtual machine.
 
 3. Remove unnecessary Ubuntu Server packages and download Ubuntu desktop:
    ```console
