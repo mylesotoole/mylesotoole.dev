@@ -4,6 +4,8 @@ categories:
   - macOS
 ---
 
+###### This guide also works for Amazon Fire Sticks
+
 #### Needed Prerequisites:
 - Install [Homebrew](https://brew.sh/) on your Mac
 
