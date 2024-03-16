@@ -20,7 +20,7 @@ categories:
 4. Turn **ADB debugging** on
 
 #### 3. Install Android Platform Tools:
-```command 
+```console 
 brew install android-platform-tools
 ```
 
