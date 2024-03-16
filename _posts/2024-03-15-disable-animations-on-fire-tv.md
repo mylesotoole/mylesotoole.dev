@@ -19,21 +19,21 @@ categories:
 3. Click **Developer options**
 4. Turn **ADB debugging** on
 
-#### 3. Install Android Platform Tools:
-```console 
-brew install android-platform-tools
-```
+3. Install Android Platform Tools:
+   ```console 
+   brew install android-platform-tools
+   ```
 
-#### 4. Connect to Amazon Fire TV:
-```console
-adb connect (Your Fire TV IP Address)
-```
+4. Connect to Amazon Fire TV:
+   ```console
+   adb connect (Your Fire TV IP Address)
+   ```
 
-#### 5. Disable Animations:
-```console
-adb shell settings put global window_animation_scale 0.0
-```
+5. Disable Animations:
+   ```console
+   adb shell settings put global window_animation_scale 0.0
+   ```
 
-```console
-adb shell settings put global transition_animation_scale 0.0
-```
+   ```console
+   adb shell settings put global transition_animation_scale 0.0
+   ```
