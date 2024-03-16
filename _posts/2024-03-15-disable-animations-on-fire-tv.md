@@ -4,8 +4,6 @@ categories:
   - macOS
 ---
 
-###### This guide also works for Amazon Fire Sticks
-
 #### Needed Prerequisites:
 - Install [Homebrew](https://brew.sh/) on your Mac
 
@@ -22,7 +20,7 @@ categories:
 4. Turn **ADB debugging** on
 
 #### 3. Install Android Platform Tools:
-```command
+```command 
 brew install android-platform-tools
 ```
 
