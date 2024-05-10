@@ -11,9 +11,6 @@ categories:
 - Install [Discord](https://discord.com/) or chat app of choice
 - Any user account with a password
 
-#### Recommended Prerequisite:
-- Follow [this quick guide](*) to save resources and storage
-
 <hr>
 
 ### 1. Change Default Login Shell
